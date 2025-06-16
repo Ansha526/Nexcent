@@ -1,180 +1,186 @@
-.navlink{
-    display: flex;
-  align-items: center;
-  gap: 30px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.head{
-  background-color: #F5F7FA;
+.head {
+  background-color: #f5f7fa;
+  padding: 20px;
+}
+.header-container {
   display: flex;
   align-items: center;
-  gap: 70px;
+  gap: 100px;
   justify-content: center;
 }
-ul li{
-    list-style: none;
+.hero-section {
 }
-a{
-    text-decoration: none;
-    color: black;
+.navlink {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
-.btn{
-    padding-left: 30px;
+ul li {
+  list-style: none;
 }
-.login{
-    background-color: transparent;
-    border-color: transparent;
-    color: rgb(70, 167, 70);
+a {
+  text-decoration: none;
+  color: black;
 }
-.loginbtn{
-    color: rgb(70, 167, 70);
+.btn {
+  padding-left: 30px;
 }
-.Signup{
-    background-color: rgb(70, 167, 70);
-    border: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
+.login {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgb(70, 167, 70);
 }
-.sign{
-    color:white;
+.loginbtn {
+  color: rgb(70, 167, 70);
 }
-.Signup:hover{
-    background-color: white;
-    border: 3px;
-    border-color: rgb(70, 167, 70);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
+.Signup {
+  background-color: rgb(70, 167, 70);
+  border: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
 }
-.sign:hover{
-    color: black;
+.sign {
+  color: white;
 }
-.illustration{
-    background-color: #F5F7FA;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+.Signup:hover {
+  background-color: white;
+  border: 3px;
+  border-color: rgb(70, 167, 70);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
 }
-.content{
-    padding-top: 20px;
+.sign:hover {
+  color: black;
 }
-.lessonheading{
-    font-size: 56px;
-    justify-content: center;
+.illustration {
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  height: 500px;
 }
-.year{
-    color: rgb(70, 167, 70);
+.content {
+  padding-top: 20px;
 }
-.pargraph{
-    margin-top: -20px;
+.lessonheading {
+  font-size: 56px;
+  justify-content: center;
 }
-.register{
-    background-color: rgb(70, 167, 70);
-    border: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 2px;
-    margin-top: 20px;
+.year {
+  color: rgb(70, 167, 70);
 }
-.regist{
-    color: white;
+
+.register {
+  background-color: rgb(70, 167, 70);
+  border: 0px;
+  padding: 14px 25px;
+
+  border-radius: 2px;
+  margin-top: 20px;
 }
-.iconimage{
-    margin-top: 40px;
-    padding-left: 30px;
+.pargraph {
+  padding-top: 10px;
 }
-.clientsection{
-    margin-top: 30px;
+.regist {
+  color: white;
 }
-.clientheading{
-    text-align: center;
-    justify-content: center;
+.iconimage {
+  margin-top: 40px;
+  padding-left: 30px;
 }
-.clientpara{
-    text-align: center;
-    justify-content: center;
+.clientsection {
+  margin-top: 30px;
 }
-.clientlogo{
-    justify-content: center;
-    gap: 100px;
-    display: flex;
-    margin-top: 40px;
+.community {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.communityheading{
-    justify-content: center;
-    text-align: center;
-    margin-top: 80px;
-    font-size: 32px;
+.clientheading {
+  text-align: center;
+  justify-content: center;
 }
-.communitypara{
-    justify-content: center;
-    text-align: center;
-    margin-top: 20px;
+.clientpara {
+  text-align: center;
+  justify-content: center;
 }
-.communitydiv{
-    display: flex;
-    margin-top: 60px;
-    gap: 30px;
-    justify-content: center;
+.clientlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 40px;
 }
-.div1{
-    text-align: center;
-    box-shadow: rgba(rgb(74, 74, 74), rgb(104, 105, 104), rgb(90, 90, 90));
-    border: 2px;
-    border-color: gray;
+.communityheading {
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 32px;
 }
-.div2{
-    gap: 100px;
-    justify-content: center;
-    text-align: center;
-    box-shadow: rgb(rgb(74, 74, 74), rgb(104, 105, 104), rgb(90, 90, 90));
-    background-color:white;
-    border: 2px;
-    border-color: gray;
+.communitypara {
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
 }
-.div3{
-    gap: 100px;
-    justify-content: center;
-    text-align: center; 
-    align-items: center;
-    box-shadow: rgb(rgb(74, 74, 74), rgb(104, 105, 104), rgb(90, 90, 90));
-    background-color:white;
-    border: 2px;
-    border-color: gray;
+.communitydiv {
+  display: flex;
+  margin-top: 60px;
+  gap: 30px;
+  justify-content: center;
 }
-.pixelgrade{
-    display: flex;
+.div1,
+.div2,
+.div3 {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 2px solid gray;
+  width: 300px;
+  padding: 20px;
 }
-.pixelimage{
-    margin-top: 70px;
+
+.pixelgrade {
+  display: flex;
 }
-.pixelhead{
-    margin-top: 70px;
+.pixelimage {
+  margin-top: 70px;
 }
-.pixelheading{
-    font-size: 32px;
+.pixelhead {
+  margin-top: 70px;
 }
-.pixelpara{
-    margin-top: 20px;
+.pixelheading {
+  font-size: 32px;
 }
-.learnmore{
-    background-color: rgb(70, 167, 70);
-    border: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 2px;
-    margin-top: 20px;
+.pixelpara {
+  margin-top: 20px;
 }
-.more{
-    color: white;
+.learnmore {
+  background-color: rgb(70, 167, 70);
+  border: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+.more {
+  color: white;
 }
