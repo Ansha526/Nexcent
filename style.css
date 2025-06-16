@@ -1,0 +1,180 @@
+.navlink{
+    display: flex;
+  align-items: center;
+  gap: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+  background-color: #F5F7FA;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  justify-content: center;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    padding-left: 30px;
+}
+.login{
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(70, 167, 70);
+}
+.loginbtn{
+    color: rgb(70, 167, 70);
+}
+.Signup{
+    background-color: rgb(70, 167, 70);
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.sign{
+    color:white;
+}
+.Signup:hover{
+    background-color: white;
+    border: 3px;
+    border-color: rgb(70, 167, 70);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.sign:hover{
+    color: black;
+}
+.illustration{
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.content{
+    padding-top: 20px;
+}
+.lessonheading{
+    font-size: 56px;
+    justify-content: center;
+}
+.year{
+    color: rgb(70, 167, 70);
+}
+.pargraph{
+    margin-top: -20px;
+}
+.register{
+    background-color: rgb(70, 167, 70);
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.regist{
+    color: white;
+}
+.iconimage{
+    margin-top: 40px;
+    padding-left: 30px;
+}
+.clientsection{
+    margin-top: 30px;
+}
+.clientheading{
+    text-align: center;
+    justify-content: center;
+}
+.clientpara{
+    text-align: center;
+    justify-content: center;
+}
+.clientlogo{
+    justify-content: center;
+    gap: 100px;
+    display: flex;
+    margin-top: 40px;
+}
+.communityheading{
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 32px;
+}
+.communitypara{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.communitydiv{
+    display: flex;
+    margin-top: 60px;
+    gap: 30px;
+    justify-content: center;
+}
+.div1{
+    text-align: center;
+    box-shadow: rgba(rgb(74, 74, 74), rgb(104, 105, 104), rgb(90, 90, 90));
+    border: 2px;
+    border-color: gray;
+}
+.div2{
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgb(rgb(74, 74, 74), rgb(104, 105, 104), rgb(90, 90, 90));
+    background-color:white;
+    border: 2px;
+    border-color: gray;
+}
+.div3{
+    gap: 100px;
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+    box-shadow: rgb(rgb(74, 74, 74), rgb(104, 105, 104), rgb(90, 90, 90));
+    background-color:white;
+    border: 2px;
+    border-color: gray;
+}
+.pixelgrade{
+    display: flex;
+}
+.pixelimage{
+    margin-top: 70px;
+}
+.pixelhead{
+    margin-top: 70px;
+}
+.pixelheading{
+    font-size: 32px;
+}
+.pixelpara{
+    margin-top: 20px;
+}
+.learnmore{
+    background-color: rgb(70, 167, 70);
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.more{
+    color: white;
+}
