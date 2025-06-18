@@ -13,19 +13,22 @@
 .head {
   background-color: #f5f7fa;
   padding: 20px;
+  align-items: center;
 }
 .header-container {
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 150px;
   justify-content: center;
 }
-.hero-section {
+.logo{
+  margin-left: -30px;
 }
 .navlink {
   display: flex;
   align-items: center;
   gap: 30px;
+  margin-left: 50px;
 }
 ul li {
   list-style: none;
@@ -53,6 +56,7 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
+  margin-left: 10px;
 }
 .sign {
   color: white;
@@ -74,7 +78,7 @@ a {
   background-color: #f5f7fa;
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 200px;
   align-items: center;
   height: 500px;
 }
@@ -151,36 +155,276 @@ a {
 .div3 {
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border: 2px solid gray;
   width: 300px;
   padding: 20px;
+}
+.membership{
+  margin-top: 10px;
+}
+.membershippara{
+  margin-top: 15px;
+}
+.National{
+  margin-top: 10px;
+}
+.Nationalpara{
+  margin-top: 15px;
+}
+.clubs{
+  margin-top: 10px;
+}
+.clubspara{
+  margin-top: 15px;
 }
 
 .pixelgrade {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 .pixelimage {
   margin-top: 70px;
+  padding-left: 100px;
 }
 .pixelhead {
   margin-top: 70px;
+  margin-left: 15px;
 }
 .pixelheading {
   font-size: 32px;
 }
 .pixelpara {
   margin-top: 20px;
+  padding-right: 80px;
 }
 .learnmore {
   background-color: rgb(70, 167, 70);
   border: 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 14px 25px;
   border-radius: 2px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .more {
   color: white;
+}
+.business{
+  background-color:  #f5f7fa;
+  margin-top: 100px;
+}
+.localbusiness{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+.reinvent{
+  margin-top: 30px;
+}
+.helping{
+  padding-top: 40px;
+}
+.itself{
+  color:  rgb(70, 167, 70);
+}
+.helpingpara{
+  padding-top: 15px;
+}
+.count{
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.counting1{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  
+}
+.membercount{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.counting2{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-top: 20px;
+}
+.sitefooter{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 40px;
+}
+.sitefooterimage{
+  padding-left: 50px;
+}
+.sitefooterpara{
+  padding-right: 80px;
+  padding-top: 20px;
+}
+.customer{
+  background-color: #f5f7fa;
+  margin-top: 50px;
+}
+.customerdata{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.customerimage{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.timsimthpara1{
+  margin-right: 70px;
+}
+.timsimthhead{
+  padding-top: 15px;
+  color: rgb(70, 167, 70);
+}
+.timsimthpara2{
+  padding-top: 10px;
+}
+.timsimthlogo{
+  display: flex;
+  
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.meetcustomer{
+  color: rgb(70, 167, 70);
+  padding-left: 50px;
+}
+.arrow{
+  margin-left: -20px;
+}
+.marketing{
+  text-align: center;
+  margin-top: 100px;
+}
+.marketingpara{
+  padding-top: 20px;
+}
+.marketingdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+.image18,
+.image19,
+.image20{
+  border-radius: 10px;
+  border-color: transparent;
+}
+.img1{
+  position: relative;
+}
+.creatingdiv{
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px 5px;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+.marketinghead{
+  padding-top: 20px;
+}
+.readmorebtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.readmore{
+  color: rgb(70, 167, 70);
+}
+.Pellentesque{
+  margin-top: 50px;
+  background-color: #f5f7fa;
+  padding-bottom: 60px;
+}
+.suscipit{
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+.Pellentesquehead{
+  font-size: 56px;
+}
+.getstarted {
+  background-color: rgb(70, 167, 70);
+  border: 0px;
+  padding: 14px 30px;
+  border-radius: 2px;
+  margin-top: 30px;
+}
+.Started{
+  color: white;
+}
+.footer{
+  background-color: #232325;
+}
+.footerdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.copyright{
+  padding-top: 40px;
+  color: rgb(172, 172, 172);
+}
+.reserved{
+  padding-top: 10px;
+  color: rgb(172, 172, 172);
+}
+.socialicon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.ourcompany{
+  color: white;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+.pages{
+  padding-top: 15px;
+  color: rgb(172, 172, 172);
+}
+.Support{
+  color: white;
+  padding-top: 10px;
+}
+.Update{
+  color: white;
+  margin-top: -110px;
+  
+}
+.email{
+  width: 250px;
+  background-color: #383839;
+  display: flex;
+  align-items: center;
+  gap: 75px; 
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: rgb(172, 172, 172)
 }
