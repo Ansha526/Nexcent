@@ -323,8 +323,6 @@ a {
 .image20{
   border-radius: 10px;
   border-color: transparent;
-}
-.img1{
   position: relative;
 }
 .creatingdiv{
@@ -335,6 +333,10 @@ a {
   align-items: center;
   text-align: center;
   background-color: white;
+  position: absolute;
+  width: 83%;
+  top: 73%;
+  left: 8%;
 }
 .marketinghead{
   padding-top: 20px;
@@ -350,9 +352,10 @@ a {
   color: rgb(70, 167, 70);
 }
 .Pellentesque{
-  margin-top: 50px;
+  margin-top: 150px;
   background-color: #f5f7fa;
   padding-bottom: 60px;
+  padding-top: 20px;
 }
 .suscipit{
   justify-content: center;
